@@ -1,0 +1,54 @@
+CSCI 5140 - Database Management Systems
+File: README.txt
+
+PROJECT TITLE: Project
+AUTHORS:Laura Dominguez
+DATE: 02/21/26
+
+DESCRIPTION: 
+This project was developed as part of a structured course assignment. The SQL scripts were used to create the las_palmas_medical_center database, define its schema, and populate it with data for analysis and querying.
+
+FILES INCLUDED:
+create_db.sql : Creates the database schema. 
+insert_db.sql : Insert data into the database tables. 
+
+SYSTEM REQUIREMENTS:
+- MySQL 9.x
+- MySQL Workbench 8.x
+
+HOW TO SETUP AND RUN ON MY SQL Workbench:
+1. Open MySQL Workbench and connect to your local MySQL server.
+2. Open the create_db.sql file using File>Open SQL Script.
+3. Execute the script by Query>Execute(All or Selection). 
+4. Repeat steps 2 and 3 to open and execute insert_db.sql file. 
+
+HOW TO SETUP AND RUN ON MySQL Command Line Client:
+1. Open the MySQL Command Line Client.
+2. Enter your MySQL password when prompted.
+3. Execute the scripts:
+   source "path/to/create_db.sql";
+   source "path/to/insert_db.sql";
+
+HOW TO SETUP AND RUN ON TERMINAL/COMMAND PROMPT
+1. Open a terminal or command prompt.
+2. Start the MySQL client:
+   mysql -u root -p
+3. Execute the scripts:
+   source "path/to/create_db.sql";
+   source "path/to/insert_db.sql";
+
+NOTE: Scripts must be executed in order: create_db.sql followed by insert_db.sql.
+
+EXPECTED OUTPUT:
+The sql files will create a database, define the schema, and inserts data into the created database. 
+
+TROUBLESHOOTING:
+- If the script fails to execute, check that you are connected to the server.
+- Verify the path to all datasets is correct if the script cannot find the file.
+- Ensure all data files are in the same directory as the script or update the script with the correct file path.
+
+CONTACT: For any further assistance, please contact laudom5@nmsu.edu 
+
+
+
+
