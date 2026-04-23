@@ -3,7 +3,7 @@ File: README.txt
 
 PROJECT TITLE: Project
 AUTHORS:Laura Dominguez
-DATE: 02/21/26
+LAST UPDATED: 4/23/2026
 
 DESCRIPTION: 
 This project was developed as part of a structured course assignment. The SQL scripts were used to create the las_palmas_medical_center database, define its schema, and populate it with data for analysis and querying.
